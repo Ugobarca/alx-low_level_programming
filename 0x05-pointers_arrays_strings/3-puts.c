@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - writes the string to the command line
- * followed by the new line character
- * @str: pointer referencing the memory address where
- * the string is stored in form of an array
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
  * Return: void
  */
 

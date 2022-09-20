@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * puts2 - prints all the characters in a string with
- * even indexes
- * @str: pointer referencing the string
- * Return: void
+ * puts2 - prints one char out of 2 of a string.
+ * @str: input string.
+ * Return: no return.
  */
 void puts2(char *str)
 {
-	int i = 0;
+	int count = 0;
 
-	while (str[i] != '\0')
+	while (count >= 0)
 	{
-		if (i % 2 == 0)
+		if (str[count] == '\0')
 		{
-			_putchar(str[i]);
+			_putchar('\n');
+			break;
 		}
-		i++;
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
 	}
-	_putchar('\n');
 }

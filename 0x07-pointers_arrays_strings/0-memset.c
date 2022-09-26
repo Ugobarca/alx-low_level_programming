@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * _memset - fills memory with constant  bytess,
- * @s: memory area.
- * @b: constant byte.
- * @n: bytes filled.
- * Return: the pointer to dest.
+ * *_memset - concatenates two strings
+ * @s:  pointer
+ * @b: constant byte
+ * @n: n bytes of memory
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)

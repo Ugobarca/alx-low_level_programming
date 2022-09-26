@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 /**
  * _memset - fills memory with constant  bytess,
@@ -15,3 +16,5 @@ char *_memset(char *s, char b, unsigned int n)
 
 	return (s);
 }
+=======
+>>>>>>> b0adbec664c507ae929226cf59513a632506b975

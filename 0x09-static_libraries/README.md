@@ -1,5 +1,5 @@
 # 0x09-static_libraries
-## By Akanji michael
+## By Ugobarca
 ### ALX-Software Engineering Programming
 ``` COHORT 9 ```
-Lagos, Nigeria
+PHC, Nigeria
